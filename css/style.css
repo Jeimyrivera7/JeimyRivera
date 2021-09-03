@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/header.png);
+    background-size: cover;
+}
+
+header .nav-jeimy{
+    background-color: #49ace0;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+
+#navbarNav{
+    justify-content: center;
+    display: flex important;
+    padding: 8px 15px;
+ 
+}
+
+#navbarNav ul li{
+    margin: 0 22px;
+}
+
+#navbarNav ul li a{
+    color: #ffffff;
+    font-family: 'Merienda One', cursive;
+    border-bottom: 2px solid transparent;
+    transition: .4s;
+}
+#navbarNav ul li a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.nombre h2{
+    font-size: 35pt;
+    margin-bottom: 0;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Merienda One', cursive;
+    padding: 1px;
+}
+
+#inicio1 img{
+   justify-content: left;
+}
+
+.texto h3{
+    font-size: 25pt;
+    font-family: 'Merienda One', cursive;
+    padding-bottom: 10px;
+    padding: 20px;
+}
+
+.texto p{
+   font-size: 20pt;
+   font-family: 'Ovo', serif;
+   padding-bottom: 8px;
+
+}
+
+#inicio1 button{
+    color: #00aee3;
+    background-color: #00aee3;
+    padding: 7px 20px;
+}
+
+#inicio1 .texto button{
+    color: #fff;
+    font-size: 15px; 
+    border-bottom: solid transparent;
+    font-family: 'Ovo', serif;
+}
+
+#inicio1 button:hover{
+    margin: 0;
+    background: #7fbddf;
+    color: #00aee3;
+    border-radius: 5px;
+    border: transparent;
+    transition: .3s;
+}
+
+
+
+main #hobbies{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/main.png);
+    background-size: cover;
+}
+main #hobbies{
+    align-items: center;
+}
+
+main #hobbies h2{
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Merienda One', cursive;
+    padding-top: 55px;
+}
+ 
+main #hobbies .imagenes{
+    padding-top: 40px;
+}
+
+main #hobbies h3{
+    color: #fff;
+    size: 13px;
+    padding-left: 13px;
+    font-family: 'Ovo', serif;
+}
+
+main #hobbies .b-iz h3{
+    color: #fff;
+    size: 13px;
+    font-family: 'Ovo', serif;
+}
+
+main #hobbies .b-der h3{
+    color: #fff;
+    size: 13px;
+    padding-left: 280px;
+    font-family: 'Ovo', serif;
+}
+
+main #hobbies .b-der img {
+    padding-left: 160px; 
+}
+
+
+
+
+
+
+
+main #experiencia {
+    padding-bottom: 50px;
+    padding-top: 55px;
+    font-family: 'Merienda One', cursive;
+}
+
+main #experiencia h2{
+    font-size: 35px;
+}
+
+main #experiencia .texto p {
+    padding-top: 35px;
+    size: 20px;
+    font-family: 'Ovo', serif;
+}
+
+main #experiencia .imagen-ex img{
+    width: 350px;
+    padding-bottom: 48px;
+}
+
+
+
+
+
+main #habilidades{
+    width: 100%;
+    height: 85vh;
+    background: url(../img/main.png);
+    background-size: cover;
+}
+
+main #habilidades h2{
+    color: #fff;
+    font-size: 35px;
+    padding-top: 55px;
+    font-family: 'Merienda One', cursive;
+}
+
+main #habilidades .texto p {
+    color: #fff;
+    padding-top: 33px;
+    size: 20px;
+    font-family: 'Ovo', serif;
+}
+
+main #habilidades .imagen-ha{
+    padding-left: 0px;
+}
+
+main #habilidades .imagen-ha .row{
+    padding-left: 99px;
+    padding-top: 70px;
+}
+
+main #habilidades .imagen-ha .b-1 img{
+    width: 167px;
+    padding-right: 0px;
+}
+
+main #habilidades .imagen-ha .b-2 img{
+    width: 190px;
+    padding-left: 25px;
+}
+
+main #habilidades .imagen-ha .b-3 img{
+    width: 190px;
+    padding-left: 25px;
+}
+
+main #habilidades .imagen-ha .b-4 img{
+    width: 190px;
+    padding-left: 25px;
+}
+
+main #habilidades .imagen-ha .b-5 img{
+    width: 190px;
+    padding-left: 25px;
+}
+
+
+
+
+main #portafolio {
+    padding-bottom: 50px;
+    padding-top: 55px;
+    font-family: 'Merienda One', cursive;
+}
+
+main #portafolio .cuadro .row{
+    padding-left: 0px;
+    padding-top: 70px;
+}
+
+main #portafolio .cuadro .b-1 img{
+    width: 300px;
+    padding-left: 0px;
+}
+
+
+main #portafolio .cuadro .b-2 img{
+    width: 300px;
+    padding: auto;
+}
+
+main #portafolio .cuadro .b-3 img{
+    width: 300px;
+    padding-right: 0px;
+}
+
+main #portafolio .b-1 img{
+    transition: 0.4s;
+    margin-bottom: 30px;
+}
+
+
+main #portafolio .b-1:hover img{
+    transform: scale(1.1);
+    border-radius: 30px;
+}
+
+
+
+
+main #contacto{
+    background-color: #00aee3;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+main #texto p{
+    background-color: #fff;
+}
+main #contacto .row{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main #contacto img.icono-telefono{
+    width: 43px;
+    height: 48px;
+    margin-right: 20px;
+}
+
+main #contacto img.icono-gmail{
+    width: 43px;
+    height: 40px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+main #contacto h2{
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Merienda One', cursive;
+    
+}
+
+main #contacto p{
+    size: 28px;
+    font-family: 'Ovo', serif;
+    color: #fff;
+    padding-left: 25px;
+    text-decoration: none;
+    font-size: 20px;
+}
+main #contacto a{
+    color: #ffffff;
+    text-decoration: none;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+
+footer img{
+    width: 50px;
+}
+
+footer{
+    padding: 20px 0;
+    margin-left: 1190px;
+}
+
+
+
+/**Portafolio 2**/
+
+#portafoliodos h2 {
+    font-size: 35px;
+    margin-top: 50px;
+    color: #fff;
+    font-family: 'Merienda One', cursive;
+}
+
+#portafoliodos p{  
+    margin-top: 50px;
+    font-size: 20px;
+    text-decoration: none;  
+    font-family: 'Ovo', serif;
+   
+}
+
+#portafoliodos button{
+    padding: 6px 12px;
+}
+
+#portafoliodos .texto button{
+    background-color: #00aee3;
+    font-size: 15px;
+    transition: .4s; 
+    border-bottom: solid transparent;
+    font-family: 'Ovo', serif;
+}
+
+#portafoliodos button:hover{
+    margin-bottom: 10px;
+    background: #7fbddf;
+    color: #00aee3;
+    border-radius: 5px;
+    border: transparent;
+    transition: .3s;
+}
+
+
+
+#portafoliodos-1  h5{
+    font-size: 35px;
+    padding-top: 95px;
+    color: #00aee3;
+    font-family: 'Merienda One', cursive;
+}
+
+#portafoliodos-1 h4{
+    font-size: 27px;
+    color: #7fbddf;
+    margin-bottom: 0px;
+    font-family: 'Ovo', serif;
+}
+
+#portafoliodos-2 .row h4{
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 50px;
+    font-family: 'Ovo', serif;
+}
+
+
+#portafoliodos-2 .b-1 img{
+    transition: 0.4s;
+    margin-bottom: 30px;
+}
+
+#portafoliodos-2 .b-1:hover img {
+    transform: scale(1.1);
+    border-radius: 30px;
+}
+
+
+#portafoliodos-3  h5{
+    font-size: 35px;
+    padding-top: 95px;
+    color: #00aee3;
+    font-family: 'Merienda One', cursive;
+}
+
+#portafoliodos-3 h4{
+    font-size: 27px;
+    color: #7fbddf;
+    margin-bottom: 60px;
+    font-family: 'Ovo', serif;
+}
+
+#portafoliodos-3 .b-2 img{
+    transition: 0.4s;
+    margin-bottom: 30px;
+}
+
+#portafoliodos-3 .b-2:hover img{
+    transform: scale(1.1);
+    border-radius: 30px;
+}
+
+
+
+/**
+
+**/
+
+
+
